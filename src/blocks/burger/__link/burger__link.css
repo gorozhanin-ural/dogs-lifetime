@@ -1,0 +1,32 @@
+.burger__link {
+  position: relative;
+  color: currentcolor;
+  line-height: 1.33;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.burger__link:hover {
+  opacity: 0.8;
+}
+
+.burger__link:active {
+  opacity: 0.6;
+}
+
+.burger__link::before {
+  content: "";
+  position: absolute;
+  inline-size: 100%;
+  block-size: 1px;
+  background-color: currentcolor;
+  transition: scale 0.2s;
+  inset-inline-start: 0;
+  inset-block-end: 0;
+  scale: 0;
+}
+
+.burger__link:hover::before {
+  opacity: 0.8;
+  scale: 1;
+}

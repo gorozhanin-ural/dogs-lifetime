@@ -1,0 +1,10 @@
+.page {
+  inline-size: 100%;
+  min-inline-size: 428px;
+  max-inline-size: 1440px;
+  margin: 0 auto;
+  color: var(--text-main-color, #000);
+  font-family: var(--main-font-family, "Montserrat Variable"), "Open Sans",
+    sans-serif;
+  font-size: 18px;
+}

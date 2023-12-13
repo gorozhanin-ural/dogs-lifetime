@@ -1,0 +1,27 @@
+.burger {
+  display: flex;
+  align-items: center;
+  transition: inset-inline-start 1s 0.2s;
+}
+
+@media (width < 1024px) {
+  .burger {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    min-block-size: 100vh;
+    margin: 0;
+    padding: 180px 200px 0 100px;
+    color: #fff;
+    background-color: #000;
+    inset-inline-start: -100%;
+    inset-block-start: 0;
+  }
+}
+
+@media (width < 768px) {
+  .burger {
+    padding: 180px 200px 0 30px;
+  }
+}

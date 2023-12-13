@@ -1,0 +1,15 @@
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+@media (width < 768px) {
+  .buttons {
+    flex-direction: column;
+    row-gap: 20px;
+    inline-size: 250px;
+  }
+}

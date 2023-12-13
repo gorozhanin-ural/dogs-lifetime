@@ -1,0 +1,20 @@
+.burger__button_opened .burger__button-line:nth-child(1) {
+  block-size: 5px;
+  rotate: 45deg;
+  inset-block-start: 50%;
+}
+
+.burger__button_opened .burger__button-line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger__button_opened .burger__button-line:nth-child(3) {
+  block-size: 5px;
+  rotate: -45deg;
+  inset-block-start: 50%;
+}
+
+.burger__button_opened.burger__button {
+  block-size: 30px;
+  color: #fff;
+}

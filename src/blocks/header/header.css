@@ -1,0 +1,16 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 100px;
+  background-color: var(--background-color, #d6fc52);
+}
+
+@media (width < 768px) {
+  .header {
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 30px;
+  }
+}

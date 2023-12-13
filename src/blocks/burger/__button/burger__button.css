@@ -1,0 +1,26 @@
+.burger__button {
+  position: relative;
+  z-index: 2;
+  display: none;
+  inline-size: 30px;
+  block-size: 12px;
+  border: none;
+  padding: 0;
+  background: transparent;
+  transition: color 1s;
+  cursor: pointer;
+}
+
+.burger__button:hover {
+  opacity: 0.8;
+}
+
+.burger__button:active {
+  opacity: 0.6;
+}
+
+@media (width < 1024px) {
+  .burger__button {
+    display: flex;
+  }
+}

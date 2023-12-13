@@ -1,0 +1,28 @@
+doctype html
+html(lang="ru")
+  head
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="./vendor/fonts/fonts.css")
+    link(rel="stylesheet", href="./vendor/normalize.css")
+    link(rel="stylesheet", href="./bundle.css")
+    title Породы собак с наибольшей продолжительностью жизни
+  body.page
+    header.header
+      div.header__logo-block
+        button(type="button").burger__button 
+          span.burger__button-line
+          span.burger__button-line
+          span.burger__button-line
+        span.logo LOGO
+      nav.burger.header__burger 
+        ul.burger__list 
+          li.burger__list-item  
+            a(href="#0").burger__link Главная
+          li.burger__list-item  
+            a(href="#0").burger__link Породы
+          li.burger__list-item  
+            a(href="#0").burger__link Рейтинги
+      div.buttons
+        button(type="button").buttons__button Вход
+        button(type="button").buttons__button.buttons__button_accent Регистрация
+  script(src="./js/burger.js")

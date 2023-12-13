@@ -1,0 +1,25 @@
+.burger__button-line {
+  position: absolute;
+  display: block;
+  inline-size: 30px;
+  block-size: 3px;
+  opacity: 1;
+  background-color: currentcolor;
+  transition: all 0.2s;
+}
+
+.burger__button-line:nth-child(1) {
+  inset-block-start: 0;
+  inset-inline-start: 0;
+}
+
+.burger__button-line:nth-child(2) {
+  inset-block-start: 50%;
+  inset-inline-start: 0;
+  translate: 0 -50%;
+}
+
+.burger__button-line:nth-child(3) {
+  inset-block-end: 0;
+  inset-inline-start: 0;
+}
