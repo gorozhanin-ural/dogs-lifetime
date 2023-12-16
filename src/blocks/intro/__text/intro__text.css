@@ -1,0 +1,7 @@
+.intro__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 30px;
+  line-height: 1.88;
+}

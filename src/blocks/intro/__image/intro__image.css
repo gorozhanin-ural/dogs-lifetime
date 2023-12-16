@@ -1,0 +1,6 @@
+.intro__image {
+  align-self: center;
+  inline-size: 100%;
+  max-inline-size: 800px;
+  border-radius: 30px;
+}

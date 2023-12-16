@@ -1,0 +1,7 @@
+.intro__table-row {
+  display: flex;
+  justify-content: space-between;
+  inline-size: 100%;
+  border-block-start: 1px solid black;
+  border-block-end: 1px solid black;
+}

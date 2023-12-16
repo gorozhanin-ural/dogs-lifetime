@@ -1,0 +1,7 @@
+.intro__table {
+  inline-size: 100%;
+  max-inline-size: 1040px;
+  margin-block-start: 50px;
+  font-weight: 500;
+  border-collapse: collapse;
+}
